@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   
-  /* Hamburger Icon */
+
   .hamburger {
     width: 35px;
     cursor: pointer;
@@ -19,9 +19,9 @@
     transition: 0.4s;
   }
   
-  /* Menu */
+ 
   .menu {
-    display: none; /* Hidden by default */
+    display: none; 
     background: #f4f4f4;
     padding: 20px;
   }
@@ -35,7 +35,7 @@
     cursor: pointer;
   }
   
-  /* ===== ACTIVE STATE ===== */
+
   
   .hamburger.active .bar1 {
     transform: translateY(11px) rotate(-45deg);
